@@ -1,0 +1,30 @@
+fieldset{
+	width: 400px;
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 1px solid #ccc;
+}
+legend{
+	margin-left: 20px;
+}
+label{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	margin-left:20px;
+}
+label span{
+	text-align: right;
+}
+.submit{
+	margin-left: 20px;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+}
+p{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 13px;
+}

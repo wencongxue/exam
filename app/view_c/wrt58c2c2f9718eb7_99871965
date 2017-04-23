@@ -1,0 +1,50 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-03-10 15:15:05
+  from "D:\Apache24\htdocs\exam\app\view\signup.tpl" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_58c2c2f9714021_08072182',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '2ba42952537d6a7ffb83b2f086a22abdfe7afd63' => 
+    array (
+      0 => 'D:\\Apache24\\htdocs\\exam\\app\\view\\signup.tpl',
+      1 => 1489158904,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_58c2c2f9714021_08072182 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+public/css/basic.css">
+	<link rel="stylesheet" href="./public/css/login.css">
+	<link rel="stylesheet" href="./public/css/signup.css">
+</head>
+<body>
+	<form action="./Index/signup" method="post" id="signup">
+		<fieldset>
+			<legend>注册</legend>
+			<label for="username">用户名 : <input type="text" name="username" id="username"></label>
+			<label for="password">密　码 : <input type="password" name="password" id="password"></label>
+			<label for="username">密码确认 : <input type="radio" name="type" value="0" checked="checked">学生 <input type="radio" name="type" value="1"> 管理员</label>
+			<input type="submit" value="登录" name="submit" class="submit" id="submit"><p>没有账号?<a href="#">注册一个</a></p>
+		</fieldset>
+	</form>
+</body>
+<?php echo '<script'; ?>
+ type="text/javascript" src="./public/js/login.js"><?php echo '</script'; ?>
+>
+</html><?php }
+}

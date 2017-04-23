@@ -1,0 +1,9 @@
+form{
+	width: 80%;
+	margin:20px 10%;
+}
+form label{
+	display: block;
+	height: 35px;
+	line-height: 35px;
+}

@@ -1,0 +1,23 @@
+form{
+	margin: 20px 0 10px 20px;
+}
+label input{
+	float: left;
+}
+label {
+	display: block;
+	margin: 10px 5px;
+	/*清除浮动*/
+	overflow: hidden;
+}
+label span {
+	color: red;
+}
+label span.desc{
+	color:black;
+	width: 120px;
+	display: block;
+	float: left;
+	text-align: right;
+	margin-right: 5px;
+}

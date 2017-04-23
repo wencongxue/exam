@@ -1,0 +1,42 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-03-12 13:49:38
+  from "D:\Apache24\htdocs\exam\app\view\index.tpl" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_58c551f2981631_97429640',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '9cbe0dcb05916fab48a5b7b031dc745cfec6e802' => 
+    array (
+      0 => 'D:\\Apache24\\htdocs\\exam\\app\\view\\index.tpl',
+      1 => 1489326577,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_58c551f2981631_97429640 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我是首页</title>
+	<link rel="stylesheet" href="<?php echo getRootDir(array(),$_smarty_tpl);?>
+/public/css/basic.css">
+	<link rel="stylesheet" href="<?php echo getRootDir(array(),$_smarty_tpl);?>
+/public/css/index.css">
+</head>
+<body>
+	<div class="top">
+		<p>当前用户 : <a href="#">admin</a>　<span href="#" id="changePass">修改密码</span>　<a href="#">退出登录</a></p>
+	</div>
+	<div class="header">我是header</div>
+</body>
+</html><?php }
+}

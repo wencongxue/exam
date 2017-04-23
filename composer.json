@@ -1,0 +1,19 @@
+{
+	"name" : "Frame PHP",
+	"description" : "PHPFrame",
+	"type" : "framework",
+	"keywords" : [
+		"PHP","PHPFramework"
+	],
+	"require" : {
+		"php" : ">=5.3.0",
+		"catfan/medoo" : "*",
+		"phpexcel/phpexcel": "*"
+	},
+	"repositories": {
+		"packagist": {
+			"type": "composer",
+			"url": "https://packagist.phpcomposer.com"
+		}
+	}
+}

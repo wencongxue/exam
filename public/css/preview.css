@@ -1,0 +1,49 @@
+div.paper-title{
+	text-align: center;
+	font-size: 20px;
+	color: blue;
+	padding-top: 20px;
+}
+
+/* 试题部分样式--begin */
+div.q-list{
+	width: 500px;
+	padding-top: 20px;
+}
+div.q-list  h2.title{
+	color: #75C0E9;
+	font-size: 20px;
+	font-weight: normal;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	border: 1px dashed #ccc;
+}
+div.q-list .check-item,div.q-list .single-item,div.q-list .multiple-item{
+	margin-left: 30px;
+	background: #fff;
+	padding: 20px;
+	border: 1px #ccc solid;
+	margin-bottom: 20px;
+}
+div.q-list .check-item:hover,div.q-list .single-item:hover,div.q-list .multiple-item:hover{
+	border:1px dashed green;
+	background: #E9F3BA;
+}
+div.q-list h3{
+	font-weight: normal;
+	font-size: 15px;
+	border-bottom: 1px dashed #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+div.q-list label{
+	display: block;
+	margin: 10px 0 0 30px;
+	cursor: pointer;
+}
+#submit{
+	display: none;
+}
+/* 试题部分样式--end */

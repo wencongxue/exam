@@ -1,0 +1,5 @@
+2017-04-20 10:05:56 "Admin        index"
+2017-04-20 10:05:57 "Admin        user_list"
+2017-04-20 10:56:47 "Admin        index"
+2017-04-20 10:56:48 "Admin        user_list"
+2017-04-20 10:56:49 "Exam        score_list"

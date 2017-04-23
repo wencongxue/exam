@@ -1,0 +1,26 @@
+table{
+	margin-top: 15px;
+	width: 100%;
+	border-color: #F5F0F0;
+}
+table caption{
+	margin-bottom: 10px;
+}
+table tr{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+table tr th{
+	font-weight: normal;
+}
+table thead tr{
+	font-weight: normal;
+	background: #F1E2E2;
+}
+table tbody tr:hover{
+	background: #BADDBB;
+}
+table #submit{
+	cursor: pointer;
+}

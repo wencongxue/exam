@@ -1,0 +1,33 @@
+@charset 'utf-8';
+/* 该文件的css功能主要是对页面样式做一些基本的设定,每个前端页面都会引用 */
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+}
+a:link,a:visited{
+	color: #666;
+	font-size: inherit;
+	text-decoration: none;
+}
+a:active,a:hover{
+	color: red;
+}
+
+/* 分页样式--begin */
+.current,.num{
+	display: inline-block;
+	border:1px solid #ccc;
+	width: 20px;
+	height: 24px;
+	line-height: 24px;
+	margin: 5px 3px 0 3px;
+	background: 
+}
+.current{
+	border: none;
+}
+.num:hover{
+	background: #E0FAF0;
+}
+/* 分页样式--end */

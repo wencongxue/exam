@@ -1,0 +1,81 @@
+/* top样式--begin */
+.top{
+	background: #4d4d4d;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+}
+.top p{
+	text-align: right;
+	width: 65%;
+	margin: 0 auto;
+	padding-right: 5%; 
+}
+.top p span{
+	cursor: pointer;
+}
+/* 链接样式覆盖默认样式 */
+.top p a,.header a{
+	color: white;
+}
+/* top样式--end */
+
+/* header样式--begin */
+.header{
+	background: #2b79ad;
+	width: 65%;
+	padding: 0 17.5%;
+	height: 70px;
+}
+.header .logo{
+	height: 52px;
+	width: 211px;
+	padding-top: 9px;
+	float: left;
+}
+/* header样式--end */
+/* 页面主体,即main部分的样式--begin */
+.main{
+	width: 80%;
+	margin:0 auto;
+}
+.main .items{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background: #FBEFEF;
+}
+.main .items dl{
+	text-indent: 10px;
+}
+.main .items dl dt{
+	width: 95%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 17px;
+	background:url(../img/fold.png) no-repeat 5px #C9D9F9;
+	cursor: pointer;
+	padding-left: 5%;
+}
+.main .items dl dt span{
+	display: inline-block;
+	text-align: center;
+	height: 15px;
+	line-height: 15px;
+	font-size: 15px;
+	margin: 0 5px 0 0;
+}
+.main .items dd{
+	text-indent: 30px;
+	height: 35px;
+	line-height: 35px;
+	display: none;
+} 
+.main .items dd.selected a{
+	color: red;
+}
+.main  iframe{
+	width: 80%;
+	min-height: 300px;
+}
+/* 页面主体,即main部分的样式--end */
